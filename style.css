@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:30px ;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.fluid{
+    background-color:#212529;
+    position: sticky;
+    top: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+.call-to-action{
+    background-color: yellow;
+    font-size: 20px;
+    border: 0;
+    border-radius: 20px;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+.call-to-action:hover{
+background-color: #212529;
+color: white;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    
+}
+.hero img{
+   width: 400px; 
+}
+.hero-text{
+    background-color: #212529;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 25px;
+}
+.hero-text , .hero .call-to-action{
+    font-size: 25px;
+}
+.hero .call-to-action{
+    margin-top: 15px;
+}
+.agency{
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+}
+.agency img{
+    width: 400px;
+    border-radius: 35px;
+}
+.agency p{
+    font-size: 20px;
+    background-color:rgb(247, 244, 244) ;
+}
+
+.features{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+.features p{
+    background-color: rgb(247, 244, 244);
+    font-size: 20px;
+}
+h2{
+    font-size: 40px;
+}
+.testimonial-fluid{
+    background-color:rgb(247, 245, 245);
+    padding: 40px 0px;
+}
+.testimonial-fluid h2 {
+    text-align: center;
+    font-weight: normal;
+}
+.testimonial{
+    display: flex;
+    gap: 10px;
+}
+.testimonial img {
+    border-radius: 50%;
+}
+.testimonial p{
+    background-color: rgb(247, 244, 244);
+}
+.testimonial h3{
+    font-size: 30px;
+    margin: 0;
+}
+.footer{
+    display: flex;
+    gap: 90px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.footer-form{
+    width: 50%;
+}
+.footer-form input , .footer-form textarea{
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0px;
+}
+.footer-form button {
+    padding: 10px 50px;
+    border-radius: 40px;
+}
+.info{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.info .phone{
+    color: gray;
+}
